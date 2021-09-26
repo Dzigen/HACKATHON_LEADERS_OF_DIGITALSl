@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+
+}
+
+body{
+    display: grid;
+    grid-template-rows: 120px auto 120px;
+}
+
+header {
+    background-color: red;
+
+    border: solid;
+}
+
+footer {
+    background-color: red;
+    border: solid;
+}
+
+main {
+    background-color: blue;
+    min-height: 600px;
+    
+}
+
+span{
+    border: solid;
+}
+
+
+  article {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: royalblue;
+    justify-content: space-around;
+    padding: .5em;
+    
+  }
+
+  div{
+    margin: .5em;
+    background: gold;
+    text-align: center;
+    width: 100px;
+    flex-grow:1;
+    min-height: 400px;
+    min-width: 400px;
+    border: solid;
+  }
