@@ -1,0 +1,4 @@
+pandas = latest
+openpyxl = latest
+matplotlib = latest
+numpy = latest
